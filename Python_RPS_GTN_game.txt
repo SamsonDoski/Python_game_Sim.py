@@ -103,9 +103,6 @@ def printWelcomeMessage2():
     
 
 
-    
-        
-
 # The 'printGoodBye()' function prints a goodbye message and lines after the user is done trying the game.
 def printGoodBye():
     print("Thanks for playing")
@@ -113,10 +110,6 @@ def printGoodBye():
     print("-" * len("Do you wish to try again?(Yes/No): no") + "\n" + "-" * \
             len("Do you wish to try again?(Yes/No): no"))
     
-
-
-
-
 
     
 
@@ -200,9 +193,6 @@ def startGame2():
     
     
 
-
-
-
 # The 'openGame()' function prints a welcome message and, using a while loop, asks the user which game he/she wants to play.
 def openGame():
     print(("~" * (len("Which game would you like to play?(1/2/3): "))),"\n" + \
@@ -232,40 +222,9 @@ def openGame():
                 print("TOO BAD!!ACCESS TO THIS GAME IS NOT GRANTED\nTO PLAY THIS GAME, KINDLY UPGRADE TO PREMIUM:)")
                 
                 break
-                    
-
 
 
 openGame()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
